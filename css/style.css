@@ -6,6 +6,10 @@ body {
   min-width: 1024px;
 }
 
+h1, h3 {
+  color: #404040;
+}
+/*header*/
 header {
   height: 4rem;
   background-color: white;
@@ -14,29 +18,30 @@ header {
 
 header .content {
   font-size: 1.5rem;
-  display: flex;
-  align-items: center;
   padding-left: 1.5rem;
   padding-top: 1rem;
   padding-right: 1.5rem;
+  display: flex;
+
 }
 
+header img {
+  height: 3.5rem;
+  align-items: center;
+}
 header .logo {
   flex: 1;
-  display: flex;
   padding-left: 1.5rem;
+  display: flex;
 }
+
 
 header .desktop {
   align-items: flex-end;
 }
 
-header nav ul {
-  display: flex;
-}
-
 .logo h1 {
-  color: #5f5f5f;
+  color: #404040;
 }
 
 h1 span {
@@ -49,7 +54,7 @@ h1 span {
 
 li a {
   text-decoration: none;
-  color: #5f5f5f;
+  color: #404040;
 }
 
 nav li {
@@ -58,4 +63,48 @@ nav li {
 
 header .mobile {
   display: none;
+}
+/*header*/
+
+/*main content*/
+
+.container-learn {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  height: 38rem;
+}
+.banner img {
+  width: 60%;
+  padding: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.context {
+  display: block;
+  width: 29%;
+  align-items: center;
+  margin-top: 11rem;
+}
+.context h1 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+.context h3 {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+.context .button {
+  background-color: #404040;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  color: white;
+  font-size: 2rem;
 }
