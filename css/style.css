@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  font-family: Helvetica, serif;
 }
 
 body {
@@ -68,6 +69,7 @@ header .mobile {
 
 /*main content*/
 
+/*banner*/
 .container-learn {
   background-color: lightgray;
   display: flex;
@@ -107,4 +109,39 @@ header .mobile {
   padding: 0.5rem 0rem;
   color: white;
   font-size: 2rem;
+}
+ /*banner*/
+
+ /*practice*/
+ .container-practice {
+  display: flex;
+ }
+
+.practice {
+  text-align: left;
+}
+
+.practice img, .quote {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid lightgray;
+}
+
+.practice h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.practice #quote {
+  padding-bottom: 2rem;
+  color: gray;
+  font-size: 1.25rem;
+  font-family: cursive;
+}
+
+.practice p {
+  padding-bottom: 2rem;
+  color: gray;
+  
 }
